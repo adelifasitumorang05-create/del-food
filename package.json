@@ -1,0 +1,13 @@
+{
+  "name": "platform-digital-del-food",
+  "version": "1.0.0",
+  "description": "Platform Digital Del Food - B2B, B2C, inventory and order management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

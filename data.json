@@ -1,0 +1,210 @@
+{
+  "products": [
+    {
+      "id": "PRD001",
+      "name": "Indomie Goreng",
+      "category": "Makanan Instan",
+      "price": 3500,
+      "b2bPrice": 3000,
+      "stock": 2500,
+      "unit": "pcs",
+      "description": "Mi instan goreng dengan bumbu khas.",
+      "image": "🍜",
+      "active": true,
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "PRD002",
+      "name": "Indomie Soto",
+      "category": "Makanan Instan",
+      "price": 3500,
+      "b2bPrice": 3000,
+      "stock": 1800,
+      "unit": "pcs",
+      "description": "Mi instan kuah rasa soto.",
+      "image": "🍲",
+      "active": true,
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "PRD003",
+      "name": "Pop Mie Ayam",
+      "category": "Makanan Instan",
+      "price": 6500,
+      "b2bPrice": 5500,
+      "stock": 900,
+      "unit": "cup",
+      "description": "Mi instan praktis dalam kemasan cup.",
+      "image": "🥡",
+      "active": true,
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "PRD004",
+      "name": "Chitato Original",
+      "category": "Snack",
+      "price": 11000,
+      "b2bPrice": 9500,
+      "stock": 600,
+      "unit": "pcs",
+      "description": "Keripik kentang dengan rasa original.",
+      "image": "🥔",
+      "active": true,
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "PRD005",
+      "name": "Qtela Singkong",
+      "category": "Snack",
+      "price": 8000,
+      "b2bPrice": 7000,
+      "stock": 750,
+      "unit": "pcs",
+      "description": "Keripik singkong renyah.",
+      "image": "🍟",
+      "active": true,
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "PRD006",
+      "name": "Teh Pucuk Harum",
+      "category": "Minuman",
+      "price": 4000,
+      "b2bPrice": 3300,
+      "stock": 1200,
+      "unit": "botol",
+      "description": "Minuman teh dalam kemasan botol.",
+      "image": "🧃",
+      "active": true,
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "PRD007",
+      "name": "Indomilk UHT",
+      "category": "Minuman",
+      "price": 6000,
+      "b2bPrice": 5000,
+      "stock": 450,
+      "unit": "kotak",
+      "description": "Susu UHT siap minum.",
+      "image": "🥛",
+      "active": true,
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "PRD008",
+      "name": "Biskuit Roma Kelapa",
+      "category": "Biskuit",
+      "price": 9000,
+      "b2bPrice": 7800,
+      "stock": 25,
+      "unit": "pcs",
+      "description": "Biskuit kelapa untuk camilan keluarga.",
+      "image": "🍪",
+      "active": true,
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-2026-001",
+      "type": "B2B",
+      "customer": "Mitra Retail Medan",
+      "role": "retail",
+      "items": [
+        {
+          "productId": "PRD001",
+          "name": "Indomie Goreng",
+          "price": 3000,
+          "quantity": 100
+        },
+        {
+          "productId": "PRD006",
+          "name": "Teh Pucuk Harum",
+          "price": 3300,
+          "quantity": 50
+        }
+      ],
+      "subtotal": 465000,
+      "shipping": 15000,
+      "total": 480000,
+      "status": "Diproses",
+      "createdAt": "2026-11-02T08:00:00.000Z",
+      "history": [
+        {
+          "status": "Menunggu Konfirmasi",
+          "date": "2026-11-02T08:00:00.000Z",
+          "note": "Pesanan diterima."
+        },
+        {
+          "status": "Diproses",
+          "date": "2026-11-02T10:00:00.000Z",
+          "note": "Pesanan sedang diproses."
+        }
+      ]
+    },
+    {
+      "id": "ORD-2026-002",
+      "type": "B2C",
+      "customer": "Customer Del Food",
+      "role": "customer",
+      "items": [
+        {
+          "productId": "PRD004",
+          "name": "Chitato Original",
+          "price": 11000,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 22000,
+      "shipping": 5000,
+      "total": 27000,
+      "status": "Selesai",
+      "createdAt": "2026-11-03T08:00:00.000Z",
+      "history": [
+        {
+          "status": "Menunggu Konfirmasi",
+          "date": "2026-11-03T08:00:00.000Z",
+          "note": "Pesanan diterima."
+        },
+        {
+          "status": "Diproses",
+          "date": "2026-11-03T09:00:00.000Z",
+          "note": "Pesanan dikonfirmasi."
+        },
+        {
+          "status": "Disiapkan",
+          "date": "2026-11-03T10:00:00.000Z",
+          "note": "Produk disiapkan."
+        },
+        {
+          "status": "Dikirim",
+          "date": "2026-11-03T11:00:00.000Z",
+          "note": "Pesanan dikirim."
+        },
+        {
+          "status": "Selesai",
+          "date": "2026-11-03T13:00:00.000Z",
+          "note": "Pesanan selesai."
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TRX-2026-001",
+      "orderId": "ORD-2026-002",
+      "customer": "Customer Del Food",
+      "type": "B2C",
+      "total": 27000,
+      "date": "2026-11-03T13:00:00.000Z",
+      "status": "Berhasil"
+    }
+  ],
+  "inventoryLogs": [],
+  "settings": {
+    "storeName": "PT Del Food Sejahtera Tbk",
+    "shippingB2C": 5000,
+    "shippingB2B": 15000
+  }
+}
